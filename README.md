@@ -4,4 +4,4 @@
 
 Link para o site:
 
-https://lam-rose.vercel.app/
+https://lam-sigma.vercel.app/
