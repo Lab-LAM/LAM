@@ -12,13 +12,13 @@ const Icons = ()=>{
             <div className="icon-iten">
                 <TiMessages size={50} color="blue"/>
                 <p style={{paddingTop:10}}>Envie-nos um SMS</p>
-                <p>(63)99250-9965</p>
+                <p>(63)99999-9999</p>
             </div>
             
             <div className="icon-iten">
                 <BsTelephone size={50} color="blue"/>
                 <p style={{paddingTop:10}}>Contate-nos</p>
-                <p>(63)99250-9965</p>
+                <p>(63)99999-9999</p>
             </div>
             <div className="icon-iten">
                 <RiMessengerLine size={50} color="blue"/>
