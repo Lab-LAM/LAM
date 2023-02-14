@@ -3,7 +3,7 @@ import './mission.css';
 import Title from "../../components/Title";
 import Conteudo from "../../components/Conteudo";
 
-const Home = ()=>{
+const mission = ()=>{
     return(
         <div>
             <div className="capa" style={{marginBottom:20}}></div>
@@ -27,4 +27,4 @@ const Home = ()=>{
     )
 }
 
-export default Home;
+export default mission;
