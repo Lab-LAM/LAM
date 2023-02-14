@@ -1,5 +1,5 @@
 import React from "react";
-import './home.css';
+import './mission.css';
 import Title from "../../components/Title";
 import Conteudo from "../../components/Conteudo";
 
