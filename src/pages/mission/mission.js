@@ -6,6 +6,7 @@ import Conteudo from "../../components/Conteudo";
 const Home = ()=>{
     return(
         <div>
+            <div className="capa" style={{marginBottom:20}}></div>
             <Title title="Sobre Nós"/>
             <Conteudo content="O Laboratório de Análises Moleculares (LAM) fica localizado na Incubadora de empresas da UFT-Palmas, coordenado pelo professor Horllys Gomes Barreto, o laboratório é voltado para o estudo do DNA e agrupa dois laboratórios: um no Câmpus de Gurupi e outro no Câmpus de Palmas."/>
             <Conteudo content="Em Palmas o LAM faz parte do complexo de laboratórios da saúde e é voltado para a área humana. O mesmo diagnostica doenças como zica, dengue, H1N1, leishmaniose, entre outras. Barreto explica ainda, que estão sendo desenvolvidas tecnologias novas para diagnósticos com maior precisão, agilidade e melhor relação custo/benefício."/>
