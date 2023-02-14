@@ -15,8 +15,8 @@ const Navigator = ()=>{
                 <Nav.Link href="/projetos" style={{marginRight:20}} active>Projetos</Nav.Link>
                 <Nav.Link href="/equipe" style={{marginRight:20}} active>Equipe</Nav.Link>
                 <Nav.Link href="/contato" style={{marginRight:20}} active>Contato</Nav.Link>
-                <Nav.Link href="#" style={{marginRight:20}} active>Missão</Nav.Link>
-                <Nav.Link href="#" style={{marginRight:20}} active>Publicações</Nav.Link>
+                <Nav.Link href="/mission" style={{marginRight:20}} active>Missão</Nav.Link>
+                <Nav.Link href="/feed" style={{marginRight:20}} active>Publicações</Nav.Link>
             </Nav>
             <Nav>
                 <Nav.Link href="https://ww2.uft.edu.br//" target="_blank">
