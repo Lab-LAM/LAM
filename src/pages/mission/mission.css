@@ -1,14 +1,8 @@
-.capa{
-    height: 70vh;
-    background-image: url("../../../public/images/capa-lam.jpg");
+.project-762{
+    height: 100%;
+    background-image: url('../../../public/images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
-}
-.equipe{
-    margin-top: 30px;
-    padding-top: 10px;
-    background-color: #212529;
-    height: 400px;
-    width: 100%;
+    background-attachment: fixed;
+    padding-bottom: 40px;
 }
