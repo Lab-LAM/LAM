@@ -1,16 +1,15 @@
 import React from "react";
 import Title from "../../components/Title";
-import './feed.css';
+import './mission.css';
 
-
-const feed = ()=>{
+const Missão = ()=>{
     return(
-        <div className="feed">
-            <div className="feed-title">
+        <div className="mission">
+            <div className="mission-title">
                 <Title title="Como você prefere falar com a gente?"/>
             </div>
         </div>
     )
 }
 
-export default feed;
+export default Missão;
