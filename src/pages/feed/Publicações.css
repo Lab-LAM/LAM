@@ -1,0 +1,12 @@
+.feed{
+    height: auto;
+    background-image: url("../../../public/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.feed-title{
+    text-align: center;
+    padding-top: 30px;
+}

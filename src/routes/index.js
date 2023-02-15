@@ -4,6 +4,8 @@ import Home from "../pages/home";
 import Projetos from "../pages/projects";
 import Team from "../pages/team";
 import Contato from "../pages/contact";
+import Missão from "../pages/mission";
+import Publicações from "../pages/feed";
 
 const Rotas = ()=>{
     return(
@@ -13,6 +15,8 @@ const Rotas = ()=>{
                 <Route path="/projetos" element={<Projetos/>}/>
                 <Route path="/equipe" element={<Team/>}/>
                 <Route path="/contato" element={<Contato/>}/>
+                <Route path="/mission" element={<Missão/>}/>
+                <Route path="/feed" element={<Publicações/>}/>
             </Routes>
         </BrowserRouter>
     )
