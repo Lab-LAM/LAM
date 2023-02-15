@@ -1,11 +1,11 @@
 import React from "react";
 import Title from "../../components/Title";
-import './Publicações.css';
+import './feed.css';
 
 
-const Publicações = ()=>{
+const feed = ()=>{
     return(
-        <div className="Publicações">
+        <div className="feed">
             <div className="feed-title">
                 <Title title="Como você prefere falar com a gente?"/>
             </div>
@@ -13,4 +13,4 @@ const Publicações = ()=>{
     )
 }
 
-export default Publicações;
+export default feed;

@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../../components/Title";
 import './mission.css';
 
-const Missão = ()=>{
+const mission = ()=>{
     return(
         <div className="mission">
             <div className="mission-title">
@@ -12,4 +12,4 @@ const Missão = ()=>{
     )
 }
 
-export default Missão;
+export default mission;
