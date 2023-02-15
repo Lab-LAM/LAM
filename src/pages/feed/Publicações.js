@@ -13,4 +13,4 @@ const Publicações = ()=>{
     )
 }
 
-export default Contato;
+export default Publicações;
