@@ -7,7 +7,7 @@ const Publicações = ()=>{
     return(
         <div className="feed">
             <div className="feed-title">
-                <Title title="Como você prefere falar com a gente?"/>
+                <Title title="Publicações"/>
             </div>
         </div>
     )

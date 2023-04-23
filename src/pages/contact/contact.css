@@ -1,38 +1,39 @@
-.contact{
-    height: auto;
-    background-image: url("../../../public/images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
+.container-contact {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px 30px 0 30px;
 }
-.contact-title{
+.contact-title {
     text-align: center;
     padding-top: 30px;
 }
-.contact-faces{
+.contact-faces {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
-.contact-icons{
+.contact-icons {
     display: flex;
     justify-content: center;
     margin-top: 80px;
 }
-.contact-find{
+.contact-find {
     margin-top: 50px;
     font-size: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
 }
-.contact-find p{
+.contact-find p {
     border-top: solid 2px;
     border-color: #c4c4c4;
     width: 150px;
 }
-.contact-map{
+.contact-map {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;

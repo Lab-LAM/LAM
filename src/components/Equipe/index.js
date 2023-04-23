@@ -1,30 +1,37 @@
-import React from "react";
-import './equipe.css'
-import {MdEmail} from 'react-icons/md'
-import {FaFacebookSquare} from 'react-icons/fa'
-import {ImLinkedin2} from 'react-icons/im'
-import {ImProfile} from 'react-icons/im'
+import React from 'react';
+import './equipe.css';
+import { MdEmail } from 'react-icons/md';
+import { SiResearchgate, SiOrcid } from 'react-icons/si';
 
-const Equipe = (props)=>{
-    return(
-        <div className="box">
-            <div className="tean-image">
-                <img src={props.foto} alt="user"></img>
-            </div>
-            <div className="tean-name">
-                <p>{props.nome}</p>
-            </div>
-            <div className="tean-formation">
-                <p>{props.funcao}</p>
-            </div>
-            <div className="tean-icons">
-                <a href={props.facebook} target="blank"><FaFacebookSquare/></a>
-                <a href={props.email} target="blank"><MdEmail size={20}/></a>
-                <a href={props.linkedin} target="blank"><ImLinkedin2/></a>
-                <a href={props.curriculo} target="blank"><ImProfile/></a>
-            </div>
-        </div>
-    )
-}
+const Equipe = (props) => {
+  return (
+    <div className='box'>
+      <div
+        style={{ backgroundImage: `url(${props.foto})` }}
+        className='team-image'
+      />
+      <p>{props.nome}</p>
+      <p className='team-formation' >{props.funcao}</p>
+      <div className='team-icons'>
+        <a href={props.researchgate} target='blank'>
+          <SiResearchgate />
+        </a>
+        <a href={props.email} target='blank'>
+          <MdEmail size={20} />
+        </a>
+        <a href={props.orcid} target='blank'>
+          <SiOrcid />
+        </a>
+        <a href={props.curriculo} target='blank'>
+          <img
+            className='lattes-icon'
+            src='images/lattes_icon.png'
+            alt='lattes'
+          />
+        </a>
+      </div>
+    </div>
+  );
+};
 
 export default Equipe;

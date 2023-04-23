@@ -1,0 +1,33 @@
+.container-project {
+  text-align: justify;
+  max-width: 1320px;
+  display: flex;
+  margin: 20px 0 0 0;
+}
+
+.project-image {
+  min-width: 250px;
+  height: 250px;
+  margin: 0 5rem 0 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+@media (max-width: 620px) {
+  .container-project {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+  }
+
+  .project-image {
+    margin: 0 auto;
+  }
+
+  .content-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
