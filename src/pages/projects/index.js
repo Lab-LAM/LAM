@@ -11,14 +11,7 @@ const Projetos = () => {
                 title="RTAeasy"
                 url="images/logo_rtaeasy.png"
                 site="https://rta-easy-mocha.vercel.app/"
-                content="O RTA easy é um software para cálculo de expressão gênica que proporciona a
-                opção da utilização dos métodos mais conhecidos e utilizados pela comunidade
-                científica.
-                No RTA easy você será capaz de analisar seu experimento com vários genes
-                alvos e diversos genes de referência de uma só vez, dado que a inclusão de
-                múltiplas amostras de referências resulta em produtos mais precisos.
-                No RTA você irá gerar o modelo de planilha para inserir os dados do experimento, e selecionará o modelo de sua preferência para o cálculo.
-                Com seus dados analisados você poderá escolher como exportar os resultados, seja ele em forma textual .txt, gráfico .png e documento .pdf"
+                content="O RTAeasy é um software para o cálculo de expressão gênica de experimentos desenvolvidos via PCR em Tempo Real, com transcrição reversa (RT-qPCR), que permite a utilização dos dois modelos matemáticos mais conhecidos e utilizados pela comunidade científica."
             />
             <Projeto
                 title="RGeasy"

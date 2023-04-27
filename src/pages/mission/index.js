@@ -7,7 +7,7 @@ const Missão = () => {
     return (
         <div className="mission">
             <Title title="Missão" />
-            <Conteudo content="Viabilizar a realização de aulas práticas e o desenvolvimento de pesquisas biotecnológicas, voltadas para a criação de produtos, processos e serviços na área da saúde, por meio da disponibilidade de estrutura laboratorial." />
+            <Conteudo content="Viabilizar a realização de aulas práticas e o desenvolvimento de pesquisas biotecnológicas, voltadas para a criação de produtos, processos e serviços, na área da saúde, por meio da disponibilidade de estrutura laboratorial." />
         </div>
     );
 };
