@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 import './faces.css';
 
-const Faces = (props)=>{
-    return(
-        <div className="faces">
-            <img src={props.foto} alt="user"></img>
-        </div>
-    )
-}
+const Faces = (props) => {
+  return (
+    <div
+      style={{ backgroundImage: `url(${props.foto})` }}
+      className='faces'
+    />
+  );
+};
 
 export default Faces;

@@ -1,0 +1,17 @@
+.nav-container {
+  padding: 8px 30px;
+}
+
+.me-auto {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-image {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-image {
+  margin: 0 auto;
+}

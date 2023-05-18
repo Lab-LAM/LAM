@@ -1,12 +1,15 @@
-.faces{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: blueviolet;
-    margin-left: 10px;
+.faces {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-.faces img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
+/* .faces img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+} */

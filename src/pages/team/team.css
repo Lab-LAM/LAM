@@ -1,17 +1,18 @@
-.team-back{
-    height: auto;
-    background-image: url('../../../public/images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.team-back {
     padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-.tean{
-    width: 100%;
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
 }
-.linha1{
+.linha1 {
     margin-top: 30px;
 }
-.linha3{
+.linha3 {
     padding-bottom: 100px;
 }
