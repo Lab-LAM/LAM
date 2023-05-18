@@ -12,8 +12,13 @@ const Projeto = (props) => {
       <div className='content-projects'>
         <h4>{props.title}</h4>
         <p>{props.content}</p>
-        <Button href={props.site} target='_blank' variant='outline-secondary'>
-          Visitar site da ferramenta
+        <Button
+          href={props.site}
+          disabled={props.disabled}
+          target='_blank'
+          variant='outline-secondary'
+        >
+          {props.buttonDescription}
         </Button>
       </div>
     </div>
